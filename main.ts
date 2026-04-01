@@ -1,14 +1,14 @@
 /**
- * ここに書いた説明がツールボックスのヒントになります
+ * テスト用の音声合成ブロック
  */
-//% color="#4b0082" icon="\uf028" block="音声合成"
-namespace mySpeech {
+//% color="#5C2D91" icon="\uf0a1" block="SpeechTest"
+namespace speechTest {
     /**
-     * 喋るブロック
+     * 文字を表示して音を鳴らすテスト
      */
-    //% block="喋る %text"
-    export function say(text: string): void {
+    //% block="しゃべる %text"
+    export function speak(text: string): void {
         basic.showString(text)
+        music.play(music.builtinPlayableSoundEffect(soundExpression.hello), music.PlaybackMode.UntilDone)
     }
 }
-
