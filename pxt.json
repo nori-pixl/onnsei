@@ -1,1 +1,16 @@
-"billy": "github:adamish/pxt-billy#v1.0.12"
+{
+    "name": "onnsei",
+    "version": "0.0.1",
+    "description": "マイクロビットの音声合成です。",
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "dependencies": {
+        "core": "*",
+        "microphone": "*"
+    },
+    "targetVersions": {
+        "target": "6.0.0"
+    }
+}
