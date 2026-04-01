@@ -1,15 +1,17 @@
 {
     "name": "onnsei",
     "version": "0.0.1",
-    "description": "マイクロビットの音声合成です。",
+    "description": "マイクロビットの音声合成です",
+    "dependencies": {
+        "core": "*"
+    },
     "files": [
         "main.ts",
         "README.md"
     ],
-    "dependencies": {
-        "core": "*",
-        "microphone": "*"
-    },
+    "testFiles": [
+        "test.ts"
+    ],
     "targetVersions": {
         "target": "6.0.0"
     }
