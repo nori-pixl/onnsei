@@ -1,6 +1,6 @@
 {
     "name": "onnsei",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "マイクロビットの音声合成です",
     "dependencies": {
         "core": "*"
