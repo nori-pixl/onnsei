@@ -1,14 +1,13 @@
 /**
- * テスト用の音声合成ブロック
+ * 音声合成のテスト
  */
-//% color="#5C2D91" icon="\uf0a1" block="SpeechTest"
-namespace speechTest {
+//% color="#5C2D91" icon="\uf0a1" block="Onsei"
+namespace onsei {
     /**
-     * 文字を表示して音を鳴らすテスト
+     * しゃべるブロック
      */
     //% block="しゃべる %text"
-    export function speak(text: string): void {
+    export function say(text: string): void {
         basic.showString(text)
-        music.play(music.builtinPlayableSoundEffect(soundExpression.hello), music.PlaybackMode.UntilDone)
     }
 }
